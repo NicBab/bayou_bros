@@ -1,0 +1,47 @@
+.site-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #35073f;
+  }
+  
+  .footerIcons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer > section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  footer > section > h2 {
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 9px;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    border-bottom: 1px solid #e7c367;
+  }
+  
+  footer > section > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 9px;
+    font-size: 0.8rem;
+    flex-direction: row;
+  }
+  
+  footer > section > a:hover {
+    border-bottom: 1px solid #e7c367;
+    margin-bottom: 8px;
+  }
+  
+  .stellar {
+    color: rgb(112, 11, 112);
+    font-size: 9pt;
+  }
