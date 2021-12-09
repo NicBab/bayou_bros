@@ -1,10 +1,18 @@
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { Header, Footer } from './components/index'
+import { About, Events } from './pages/index'
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      Hello
-    </div>
+    <Router>
+      <Header />
+      <Switch>
+        <Route />
+        <Route />
+      </Switch>
+      <Footer />
+    </Router>
   );
 }
 
